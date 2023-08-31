@@ -1,0 +1,49 @@
+$color-primary: #7ABC64;
+$color-secondary: #929AA3;
+$color-dark:#494C4E;
+$color-light-dark:#F6F6F6;
+$color-light:#FFFFFF;
+$color-linked:#7799AD;
+
+.dark-bg{
+    background-color: $color-dark;
+};
+
+.light-bg{
+    background-color: $color-light;
+}
+
+.light-dark-bg{
+    background-color: $color-light-dark;
+}
+
+.primary-bg{
+    background-color: $color-primary;
+}
+
+.linked-text{
+    color: $color-linked;
+
+}
+
+.light-text{
+    color: $color-light;
+};
+
+.relative{
+    position: relative;
+};
+
+.absolute{
+    position: absolute;
+};
+
+.shaded{
+    box-shadow: 10px 30px 50px $color-secondary,
+                
+};
+
+.top-offset{
+    margin-top: -45px;
+    z-index: 2;
+}
