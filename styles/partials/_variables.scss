@@ -20,6 +20,9 @@ $color-linked:#7799AD;
 .primary-bg{
     background-color: $color-primary;
 }
+.secondary-text{
+    color: $color-secondary;
+}
 
 .linked-text{
     color: $color-linked;
@@ -46,4 +49,8 @@ $color-linked:#7799AD;
 .top-offset{
     margin-top: -45px;
     z-index: 2;
+}
+.navbar-brand{
+    min-width: 240px;
+
 }

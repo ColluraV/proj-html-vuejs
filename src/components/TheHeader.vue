@@ -71,7 +71,8 @@ export default {
           </li>
         </ul>
 
-        <button class="btn primary-bg rounded-5" type="submit">BOOK NOW</button>
+        <button class="btn primary-bg btn-lg light-text rounded-5" type="submit">BOOK NOW</button>
+
 
       </div>
     </div>
