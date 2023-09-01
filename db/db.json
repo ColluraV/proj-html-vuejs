@@ -1,14 +1,14 @@
 [
         {
-            "thumb":"/course-passplus",
+            "thumb":"../../public/courses-passplus.jpg",
             "name":"Pass Plus"
         },
         {
-            "thumb":"/course-intensive",
+            "thumb":"../../public/course-intensive.jpg",
             "name":"Intensive Course"
         },
         {
-            "thumb":"/course-instructors",
+            "thumb":"../../public/courses-instructor.jpg",
             "name":"Instructors"
         }
     ]

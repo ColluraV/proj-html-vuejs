@@ -10,17 +10,19 @@
 .top-logo{
     width: 100%;
     
-}
+};
+
 #jingle{
    bottom: 10%;
 
    h1{
     font-size: 4rem;
    };
-}
+};
+
 #form-container{
     min-height: 550px;
-}
+};
 
 #jumbo{
     background-image: url(/homepage-hero-background.jpg);
@@ -44,4 +46,10 @@
     padding: 10px 0;
     background-size: cover;
     background-position: center;
-}
+};
+
+#coursesInfos{
+    background-image: url(../public/new-corner.jpg);
+    background-repeat: no-repeat;
+    background-size: 80px;
+};

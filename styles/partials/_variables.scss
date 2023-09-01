@@ -11,23 +11,23 @@ $color-linked:#7799AD;
 
 .light-bg{
     background-color: $color-light;
-}
+};
 
 .light-dark-bg{
     background-color: $color-light-dark;
-}
+};
 
 .primary-bg{
     background-color: $color-primary;
-}
+};
+
 .secondary-text{
     color: $color-secondary;
-}
+};
 
 .linked-text{
     color: $color-linked;
-
-}
+};
 
 .light-text{
     color: $color-light;
@@ -43,14 +43,21 @@ $color-linked:#7799AD;
 
 .shaded{
     box-shadow: 10px 30px 50px $color-secondary,
-                
 };
 
 .top-offset{
     margin-top: -45px;
     z-index: 2;
-}
+};
+
+.bot-offset{
+    margin-bottom: 45px;
+};
+
 .navbar-brand{
     min-width: 240px;
+};
 
-}
+.course-img{
+    width: 90%;
+};
