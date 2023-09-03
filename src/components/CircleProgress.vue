@@ -18,7 +18,7 @@ export default {
 <template>
   <div >
 
-    <div class="container d-flex flex-wrap g-3" >
+    <div class="container d-flex flex-wrap" >
 
       <div class="circle-container col-12 col-lg-4 py-5" v-for="circle in store.ratesdata">
 

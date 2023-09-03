@@ -4,16 +4,16 @@ export const store = reactive({
     
     courses:[
         {
-            "thumb":"/courses-passplus.jpg",
-            "name":"Pass Plus"
+            thumb:"/courses-passplus.jpg",
+            name:"Pass Plus"
         },
         {
-            "thumb":"/course-intensive.jpg",
-            "name":"Intensive Course"
+            thumb:"/course-intensive.jpg",
+            name:"Intensive Course"
         },
         {
-            "thumb":"/courses-instructor.jpg",
-            "name":"Instructors"
+            thumb:"/courses-instructor.jpg",
+            name:"Instructors"
         }
     ],
 
@@ -23,5 +23,19 @@ export const store = reactive({
         { name: "ACCIDENT RATE", size: "0" },
 
     ],
+    instructors:[
+        {
+            thumb:"/instructor-mikehart.jpg",
+            name:"Mike Hart"
+        },
+        {
+            thumb:"/instructor-johnsmith.jpg",
+            name:"John Smith"
+        },
+        {
+            thumb:"/instructor-angelahart.jpg",
+            name:"Angela Hart"
+        },
+    ],
 
-})
+});
