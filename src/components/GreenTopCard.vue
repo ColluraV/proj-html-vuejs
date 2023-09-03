@@ -1,16 +1,16 @@
 <script>
-import CircleProgress from "./CircleProgress.vue"
+
 
 
 export default {
 
     data() {
         return {
-            
+
         };
     },
     components:{
-        CircleProgress
+        
     },
     methods: {
 
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <template>
-    <CircleProgress/>
+
 </template>
 
 <style lang="scss" scoped>

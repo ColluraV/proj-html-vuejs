@@ -18,7 +18,7 @@ export default {
   <img :src="imgSrc" class="course-img" alt=""> <!-- //////immagine////// -->
 
     <h5 class="card-title secondary-text p-2">{{name}}</h5> <!-- //////nome////// -->
-    <button class="border border-3 btn-lg secondary-text rounded-5 my-1" type="submit">LEARN MORE</button>
+
 
 </div>
 

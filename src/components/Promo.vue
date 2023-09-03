@@ -1,18 +1,18 @@
 <script>
 
-import InfoCourses from "../../db/db.json";
-import SingleCourse from "./SingleCourse.vue"
+import { store } from "../../store";
+import SingleCard from "./SingleCard.vue";
 
 
 export default {
 
     data() {
         return {
-            InfoCourses
+            store
         };
     },
     components:{
-        SingleCourse
+        SingleCard
     },
     methods: {
 
@@ -51,17 +51,17 @@ export default {
                     <div class="d-flex flex-wrap my-5" >
                         <!--/////////////// triple banner info courses ///////////////-->
 
-                        <div class="col-12 col-lg-4"
-                        v-for="(card,i) in InfoCourses"
+                        <div class="col-12 col-lg-4  text-center "
+                        v-for="(card,i) in store.courses"
                         :KEY="`card_${i}`">
                             
                         <!--/////////////////// singola card in v-for///////////////////-->
 
-                            <SingleCourse 
+                            <SingleCard 
                             :imgSrc="card.thumb"
                             :name="card.name" />
 
-
+                            <button class="border border-3 btn-lg secondary-text rounded-5 my-1" type="submit">LEARN MORE</button>
                         </div>
 
                     </div>
@@ -78,4 +78,10 @@ export default {
 
 <style lang="scss" scoped>
 @use "../styles/partials/variables" as *;
+#promo-container{
+    background-image: url(/promise-background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 </style>

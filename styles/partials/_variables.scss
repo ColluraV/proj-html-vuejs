@@ -61,3 +61,8 @@ $color-linked:#7799AD;
 .course-img{
     width: 100%;
 };
+
+.top-border-rounded{
+    border-top: 6px $color-primary solid;
+    border-radius: 10px;
+}
