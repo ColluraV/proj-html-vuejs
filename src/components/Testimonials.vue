@@ -74,7 +74,7 @@ export default {
   background-image: url(/testimonial-background.jpg);
   background-position: center;
   background-size: cover;
-  height: 850px;
+  height: 880px;
   margin-top: -120px;
   padding-top: 170px;
 };

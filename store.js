@@ -69,6 +69,23 @@ export const store = reactive({
             num:"5"
         }
     ],
+    news:[
+        {
+            thumb:"/blog-choosecar-700x441.jpg",
+            title:"What Car to Start With?",
+            date:" February 7th, 2019 ",
+            comments:"0",
+            text:"Lorem ipsum dolor sit amet, consectetur adipiscing"
+        },
+        {
+            thumb:"/blogpost-10and2-700x441.jpg",
+            title:"Avada Driving School Expanding",
+            date:" February 7th, 2019 ",
+            comments:"0",
+            text:"Lorem ipsum dolor sit amet, consectetur adipiscing"
+        },
+    ],
+
 
 });
 
