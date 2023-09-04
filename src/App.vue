@@ -5,6 +5,7 @@ import Promo from './components/Promo.vue';
 import Circle from './components/CircleProgress.vue';
 import GreenTopCard from './components/GreenTopCard.vue';
 import Instructors from './components/Instructors.vue';
+import Testimonials from './components/Testimonials.vue';
 
 </script>
 
@@ -16,6 +17,7 @@ import Instructors from './components/Instructors.vue';
   <GreenTopCard/>
   <Circle/>
   <Instructors/>
+  <Testimonials/>
 </template>
 
 <style lang="scss" scoped>
