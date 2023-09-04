@@ -37,7 +37,7 @@ export default {
                     <p class="fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper.</p>
 
                 </span>
-                <button class="btn primary-bg btn-lg light-text rounded-5 col-12 col-lg-3 fs-6" type="submit">MORE ABOUT US</button>
+                <button class="btn primary-bg btn-lg light-text rounded-5 col-12 col-lg-3 fs-6 green-btn" type="submit">MORE ABOUT US</button>
 
             </div>
             <div id="instructorCardsContainer" class="row">
@@ -81,8 +81,8 @@ span{
     a{
 
         text-decoration: none;
-        margin-top:auto;
-        margin-bottom:auto;
+        margin: 0.7rem;
+        
 
     }
 }

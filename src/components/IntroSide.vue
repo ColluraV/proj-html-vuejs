@@ -92,7 +92,7 @@ export default {
 
                         </div>
 
-                        <button class="btn primary-bg btn-lg light-text rounded-5" type="submit">Request a callback</button>
+                        <button class="btn primary-bg btn-lg light-text rounded-5 green-btn" type="submit">Request a callback</button>
                     </form>
                 </div>
 
@@ -124,4 +124,18 @@ export default {
 
 <style lang="scss" scoped>
 @use "../styles/partials/variables" as *;
+
+
+#form-container{
+    min-height: 550px;
+};
+
+#bot-banner{
+    background-image: url(/horizontal-cta-background.jpg);
+    margin-top: 45px;
+    padding: 10px 0;
+    background-size: cover;
+    background-position: center;
+};
+
 </style>

@@ -71,7 +71,7 @@ export default {
           </li>
         </ul>
 
-        <button class="btn primary-bg btn-lg light-text rounded-5" type="submit">BOOK NOW</button>
+        <button class="btn primary-bg btn-lg light-text rounded-5 green-btn fs-6" type="submit">BOOK NOW</button>
 
 
       </div>
@@ -95,4 +95,43 @@ export default {
 
 <style lang="scss" scoped>
 @use "../styles/partials/variables" as *;
+
+
+#jumbo{
+    background-image: url(/homepage-hero-background.jpg);
+    width: 100%;
+    height: 48vw;
+    max-height: 670px;
+    min-height: 450px;
+    background-size:cover;
+};
+
+
+.top-logo{
+    width: 100%;
+    
+};
+
+#jingle{
+   bottom: 10%;
+
+   h1{
+    font-size: 4rem;
+   };
+};
+
+.navbar.navbar-expand-lg{
+    background-color: #494c4e6d;
+    z-index: 2;
+    width: 100%;
+    
+};
+
+li a:hover{
+  color:  $color-primary;
+  border-bottom: 3px solid;
+  transition: 400ms;
+}
+
+
 </style>

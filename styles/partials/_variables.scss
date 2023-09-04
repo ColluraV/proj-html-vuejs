@@ -73,3 +73,11 @@ $color-linked:#7799AD;
 .hidden{
     display: none;
 }
+.green-btn:hover{
+    background-color: #48743a;
+};
+
+.grey-btn:hover{
+    background-color: $color-secondary;
+    color: $color-dark;
+}

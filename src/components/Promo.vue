@@ -38,7 +38,7 @@ export default {
                     <div class="d-flex flex-column justify-content-around h-100 text-center">
                         <h1 class="card-title fs">Courses</h1>
                         <p class="card-text secondary-text fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper.</p>
-                        <button class="btn primary-bg btn-lg light-text rounded-5 w-75 mx-auto" type="submit">Course Information</button>
+                        <button class="btn primary-bg btn-lg light-text rounded-5 w-75 mx-auto green-btn" type="submit">Course Information</button>
 
                     </div>
 
@@ -61,7 +61,7 @@ export default {
                             :imgSrc="card.thumb"
                             :name="card.name" />
 
-                            <button class="border border-3 btn-lg secondary-text rounded-5 my-1" type="submit">LEARN MORE</button>
+                            <button class="border border-3 btn-lg secondary-text rounded-5 my-1 grey-btn" type="submit">LEARN MORE</button>
                         </div>
 
                     </div>
@@ -84,4 +84,9 @@ export default {
     background-size: cover;
 }
 
+#coursesInfos{
+    background-image: url(../public/new-corner.jpg);
+    background-repeat: no-repeat;
+    background-size: 80px;
+};
 </style>

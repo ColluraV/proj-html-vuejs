@@ -17,7 +17,7 @@ export default {
 <div class=" text-center my-3 p-2">
   <img :src="imgSrc" class="course-img" alt=""> <!-- //////immagine////// -->
 
-    <h5 class="card-title secondary-text p-2">{{name}}</h5> <!-- //////nome////// -->
+    <h5 class="card-title secondary-text p-2" v-if="this.name !='' ">{{name}}</h5> <!-- //////nome////// -->
 
 
 </div>
@@ -28,5 +28,7 @@ export default {
 
 <style lang="scss" scoped>
 @use "../styles/partials/variables" as *;
+
+
 </style>
 

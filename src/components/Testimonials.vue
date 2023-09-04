@@ -53,11 +53,11 @@ export default {
         <h4 class="linked-text my-5">{{testimonial.name}}</h4>
 
         <div id="testimonial-selector-container d-flex flex-wrap">
-          <button @click = "selectedClick(0)" class="testimonial-selector"></button>
-          <button @click = "selectedClick(1)" class="testimonial-selector"></button>
-          <button @click = "selectedClick(2)" class="testimonial-selector"></button>
-          <button @click = "selectedClick(3)" class="testimonial-selector"></button>
-          <button @click = "selectedClick(4)" class="testimonial-selector"></button>
+          <button @click = "selectedClick(0)" class="testimonial-selector" ></button>
+          <button @click = "selectedClick(1)" class="testimonial-selector" ></button>
+          <button @click = "selectedClick(2)" class="testimonial-selector" ></button>
+          <button @click = "selectedClick(3)" class="testimonial-selector" ></button>
+          <button @click = "selectedClick(4)" class="testimonial-selector" ></button>
         </div>
 
         </div>
@@ -106,6 +106,9 @@ export default {
   border: solid 1px #929AA3;
   border-radius: 50%;
   margin: 0 3px;
+};
+.testimonial-selector:hover{
+  background-color: #7799AD;
 }
 
 </style>
