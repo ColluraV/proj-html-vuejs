@@ -60,16 +60,19 @@ export default {
     border-top: 5px solid #929AA3;
     border-radius: 8px;
     background-color: white;
-    background-image: url(/latestnews-bottom.jpg);
-    margin-top: -35px;
-    
+    background-image: url(/latestnews-bottom.png);
+    top: -40px
+  
 };
+
 
 .latest-news-container{
     background-image: url(/latestnews-background.jpg);
     background-position: center;
     background-size: cover;
-    height: 800px;
+    padding-bottom: 100px
+
+
 
 };
 #bottomTriangle{

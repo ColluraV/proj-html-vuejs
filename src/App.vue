@@ -7,6 +7,7 @@ import Circle from './components/CircleProgress.vue';
 import Instructors from './components/Instructors.vue';
 import Testimonials from './components/Testimonials.vue';
 import NewsNewsletters from './components/News&Newsletters.vue';
+import TheFooter from './components/TheFooter.vue';
 
 </script>
 
@@ -20,6 +21,7 @@ import NewsNewsletters from './components/News&Newsletters.vue';
   <Instructors/>
   <Testimonials/>
   <NewsNewsletters/>
+  <TheFooter/>
 </template>
 
 <style lang="scss" scoped>
