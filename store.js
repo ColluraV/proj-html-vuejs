@@ -41,28 +41,34 @@ export const store = reactive({
         {
             thumb:"/A_Linza.jpg",
             name:"Arturo Linza",
-            phrase:"Ho tante noci di cocco splendide, diddidi, tutte in fila per tre pre tre per tre!! Grandi grosse anche più grandi di te."
+            phrase:"Ho tante noci di cocco splendide, diddidi, tutte in fila per tre pre tre per tre!! Grandi grosse anche più grandi di te.",
+            num:"1"
         },
         {
             thumb:"/G_Corrado.jpg",
             name:"Giovanna Corrado",
-            phrase:"I'm feeling like Max Verstappen, but i have a longer d***!"
+            phrase:"I'm feeling like Max Verstappen, but i have a longer d***!",
+            num:"2",
         },
         {
             thumb:"/R_Carluccio.jpg",
             name:"Romeo Carluccio",
-            phrase:"Those courses are made for very genshin person who known how much genshin u must be to live in a ganshin woirld like this. Genshin!"
+            phrase:"Those courses are made for very genshin person who known how much genshin u must be to live in a ganshin woirld like this. Genshin!",
+            num:"3"
         },
         {
             thumb:"/S_Bono.jpg",
             name:"Simone Bono",
-            phrase:"Eccoci qua, this is the most EASY way to improve your Easy life. I mean is really too Easy!!"
+            phrase:"Eccoci qua, this is the most EASY way to improve your Easy life. I mean is really too Easy!!",
+            num:"4"
         },
         {
             thumb:"/S_Miopadre.jpg",
             name:"Miopadre Valerio",
-            phrase:"Do you need a Blue Yeti? I have to sold 5 of 'em. If you don't want to buy somethin let me eat my ice-cream"
+            phrase:"Do you need a Blue Yeti? I have to sold 5 of 'em. If you don't want to buy somethin let me eat my ice-cream!!",
+            num:"5"
         }
     ],
 
 });
+

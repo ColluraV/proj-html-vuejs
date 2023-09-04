@@ -65,4 +65,8 @@ $color-linked:#7799AD;
 .top-border-rounded{
     border-top: 6px $color-primary solid;
     border-radius: 10px;
+};
+
+.hidden{
+    display: none;
 }

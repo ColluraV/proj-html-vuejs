@@ -1,38 +1,68 @@
 <script >
 
-import { store } from "../../store.js"
+import { store} from "../../store.js"
 
 
 export default {
   data() {
     return {
-      store
+      store,
+      activeIndex: 0
     };
   },
-  methods() {
+  methods: {
+    selectedClick(x){
+      this.activeIndex = x;
+
+    },
+    increaserIndex(){
+       
+       this.activeIndex += 1;
+       if(this.activeIndex >= 5){
+         this.activeIndex = 0;
+       }
+
+     }
+ 
+  },
+  
+  mounted() {
+
+    setInterval (this.increaserIndex , 5000)
 
   },
 
-
-
-};
+  };
 </script>
 
 <template>
   <div class="container-fluid text-center">
 
-    <h2>Testimonials</h2>
-    <p class="secondary-text fs-4">Here’s what our happy drivers had to say about our services:</p>
+    <h1>Testimonials</h1>
+    <p class="linked-text fs-4">Here’s what our happy drivers had to say about our services:</p>
     
-    <div class="row text-center flex-column relative">
+    <div class="row text-center flex-column relative" :autoplay="true" :autoplay-timeout="3000">
     
-      <div class="col-12 col-lg-6 slider-el absolute" v-for="testimonial in store.testimonials">
-        <img class="testimonial-img" :src="`${testimonial.thumb}`" :alt="`${testimonial.name}`">
-        <p class="secondary-text fs-4">{{ testimonial.phrase }}</p>
-        <h4 class="secondary-text">{{testimonial.name}}</h4>
+      <div class="col slider-el absolute hidden" 
+      v-for="(testimonial,i) in store.testimonials"
 
-      </div>
-        
+      v-bind:class="(this.activeIndex === i ? 'active' : '')"
+      >
+        <img class="testimonial-img" :src="`${testimonial.thumb}`" :alt="`${testimonial.name}`">
+        <p class="linked-text fs-4">{{ testimonial.phrase }}</p>
+        <h4 class="linked-text my-5">{{testimonial.name}}</h4>
+
+        <div id="testimonial-selector-container d-flex flex-wrap">
+          <button @click = "selectedClick(0)" class="testimonial-selector"></button>
+          <button @click = "selectedClick(1)" class="testimonial-selector"></button>
+          <button @click = "selectedClick(2)" class="testimonial-selector"></button>
+          <button @click = "selectedClick(3)" class="testimonial-selector"></button>
+          <button @click = "selectedClick(4)" class="testimonial-selector"></button>
+        </div>
+
+        </div>
+
+
     </div>
   </div>
 </template>
@@ -42,13 +72,15 @@ export default {
 
 .container-fluid {
   background-image: url(/testimonial-background.jpg);
-  height: 800px;
-  margin-top: -80px;
-  padding-top: 150px;
+  background-position: center;
+  background-size: cover;
+  height: 850px;
+  margin-top: -120px;
+  padding-top: 170px;
 };
 
 .slider-el{
-  left: 25%;
+
   padding: 0 5%;
 };
 
@@ -59,6 +91,21 @@ export default {
   border-radius: 50%
 };
 
+.active{
+  display: block;
+};
+.relative{
+  height: 500px;
+  max-width: 800px;
+  margin: 20px auto;
+};
 
+.testimonial-selector{
+  width: 5px;
+  aspect-ratio: 1/1;
+  border: solid 1px #929AA3;
+  border-radius: 50%;
+  margin: 0 3px;
+}
 
 </style>
